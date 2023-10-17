@@ -1,0 +1,31 @@
+div{
+  width: 390px;
+  height: 390px;
+  background-color: black;
+  margin: 0 auto;
+display: inline-block;
+
+}
+
+.box2{
+  background-color: aliceblue;
+}
+
+.box3{
+  background-color: black;
+}
+
+.box5{
+  background-color: black;
+}
+
+.box4 {
+  background-color: aliceblue;
+}
+.box6{
+  background-color: aliceblue;
+}
+.box8{
+  background-color: aliceblue;
+}
+

@@ -1,0 +1,68 @@
+.header{
+  background-image: url(../imeges/beach.jpg);
+  height: 100vh;
+  width: 94vw;
+  text-align: center;
+  padding: 0 20px;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  background-size: 1750px 620px;
+  background-position: top;
+  font-size: 27px;
+  line-height: 0.3;
+  color: #926239;
+  margin: 0 0 0 0;
+  
+}
+.name{
+  padding-top: 200px;
+}
+.lorem1{
+  margin: 0 0 30px 0;
+}
+.lorem2{
+  background-color: #926239;
+  font-size: 20px;
+  color: white;
+  line-height: 1.4;
+  margin-top: 0;
+  padding: 20px;
+}
+.lorem3{
+  font-size: 20px;
+  color: #926239;
+  line-height: 1.4;
+  margin: 10px;
+}
+.btn{
+  padding: 15px 20px;
+  border-radius: 10px;
+  border: 1px solid #926239;
+  color: #926239;
+  font-size: 17px;
+}
+.footer{
+display: flex; 
+font-size: 19px; 
+box-sizing: border-box;
+
+}
+.lorem11{
+  width: 33vw;
+  color: white;
+  background-color: #926239;
+  padding: 20px;
+}
+.lorem22{
+  width: 33vw;
+  background-color: hsl(0, 43%, 99%);
+  color: #926239;
+  padding: 20px;
+
+}
+.lorem33{
+  width: 33vw;
+  color: white;
+  background-color: #926239;
+  padding: 20px;
+}

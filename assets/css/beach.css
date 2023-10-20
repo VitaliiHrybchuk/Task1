@@ -48,24 +48,26 @@ font-size: 19px;
 
 }
 .lorem11{
-  width: 29vw;
+  width: 29.1vw;
   color: white;
   background-color: #926239;
   padding: 19px;
   display: inline-block;
 }
 .lorem22{
-  width: 29vw;
+  width: 29.1vw;
   background-color: hsl(0, 43%, 99%);
   color: #926239;
   padding: 19px;
   display: inline-block;
-
 }
+ 
+
+
 .lorem33{
-  width: 29vw;
+  width: 29.2vw;
   color: white;
   background-color: #926239;
   padding: 19px;
   display: inline-block;
-}
+} 

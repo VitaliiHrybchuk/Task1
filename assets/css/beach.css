@@ -42,27 +42,30 @@
   font-size: 17px;
 }
 .footer{
-display: flex; 
+/* display: inline-block;  */
 font-size: 19px; 
-box-sizing: border-box;
+/* box-sizing: border-box; */
 
 }
 .lorem11{
-  width: 33vw;
+  width: 29vw;
   color: white;
   background-color: #926239;
-  padding: 20px;
+  padding: 19px;
+  display: inline-block;
 }
 .lorem22{
-  width: 33vw;
+  width: 29vw;
   background-color: hsl(0, 43%, 99%);
   color: #926239;
-  padding: 20px;
+  padding: 19px;
+  display: inline-block;
 
 }
 .lorem33{
-  width: 33vw;
+  width: 29vw;
   color: white;
   background-color: #926239;
-  padding: 20px;
+  padding: 19px;
+  display: inline-block;
 }

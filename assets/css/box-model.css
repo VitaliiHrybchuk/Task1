@@ -1,31 +1,18 @@
-div{
-  width: 390px;
-  height: 390px;
-  background-color: black;
-  margin: 0 auto;
-display: inline-block;
 
+.chess{
+  width: 600px;
+  height: 600px;
+  box-sizing: border-box;
+font-size: 0;
 }
-
-.box2{
+.box{
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+}
+ .w {
   background-color: aliceblue;
 }
-
-.box3{
-  background-color: black;
-}
-
-.box5{
+.b{
   background-color: black;
 }
-
-.box4 {
-  background-color: aliceblue;
-}
-.box6{
-  background-color: aliceblue;
-}
-.box8{
-  background-color: aliceblue;
-}
-

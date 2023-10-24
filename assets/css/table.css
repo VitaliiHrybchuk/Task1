@@ -1,0 +1,85 @@
+table{
+  border-collapse: collapse;
+  margin: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+td,
+th{
+  padding: 13px;
+  border: 1px;
+  text-align: center;
+}
+.left{
+  text-align: left;
+}
+.head{
+  font-size: 20px;
+  font-weight: 700;
+}
+.line1{
+vertical-align: middle;
+background-color: rgb(138,180,248);
+color: white;
+}
+.line2{
+  color: white;
+  background-color: rgb(113, 152, 214);
+}
+.line3{
+  color: white;
+  background-color: rgb(78, 110, 161);;
+}
+.line4{
+  color: white;
+  background-color: rgb(36, 72, 126);;
+}
+.line5{
+  color: white;
+  background-color: rgb(16, 47, 95);;
+}
+
+.amount,
+.line40,
+.unl,
+.email,
+.cl15,
+.unl60,
+.h,
+.yes1,
+.yes2,
+.zero,
+.st2,
+.st4{
+  background-color: rgb(224, 220, 220);
+}
+
+.gb20,
+.gb110,
+.band,
+.gb240,
+.gb1300,
+.n1,
+.cl60,
+.cl150,
+.unl600,
+.noot,
+.yess,
+.sup,
+.cl66,
+.cl200,
+.st11,
+.st33,
+.data{
+  background-color: rgb(243, 238, 238);
+}
+button{
+  background-color: rgb(224, 220, 220);
+  padding: 10px 25px;
+  border: 1.5px solid rgb(167, 165, 165);
+}
+span{
+  font-size: 40px;
+line-height: 1.5;
+}

@@ -10,7 +10,7 @@ th{
   border: 1px;
   text-align: center;
 }
-.left{
+tbody th{
   text-align: left;
 }
 .head{
@@ -64,7 +64,7 @@ button{
   padding: 10px 25px;
   border: 1.5px solid rgb(167, 165, 165);
 }
-span{
+tr>th>span{
   font-size: 40px;
 line-height: 1.5;
 }

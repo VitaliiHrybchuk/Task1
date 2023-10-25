@@ -12,29 +12,28 @@
   line-height: 0.3;
   color: #926239;
   margin: 0 0 0 0;
-  
-}
+  }
+ 
 .name{
-  padding-top: 200px;
-}
+  padding-top: 30vh;
+} 
 .lorem1{
   margin: 0 0 30px 0;
-}
-.lorem2{
+} 
+.section{
   background-color: #926239;
   font-size: 20px;
-  color: white;
-  line-height: 1.4;
-  margin-top: 0;
+  color: #926239;
   text-align: center;
+  line-height: 1.4;
+  }
+.lorem2{
+  color: white;
+  margin-top: 0;
 }
 .lorem3{
-  font-size: 20px;
-  color: #926239;
-  line-height: 1.4;
-  margin: 10px;
-  text-align: center;
-  margin: 10px 10px 4px;
+  margin: 10px 1px 1px;
+  background-color: hsl(0, 43%, 99%);
 }
 .btn{
   padding: 15px 20px;
@@ -43,33 +42,20 @@
   color: #926239;
   font-size: 17px;
 }
-.footer{
-/* display: inline-block;  */
-font-size: 19px; 
-/* box-sizing: border-box; */
-
-}
-.lorem11{
-  width: 29.1vw;
-  color: white;
+.btn:hover{
   background-color: #926239;
+  color: white;
+}
+.section2{
+  width: 29.13vw;
+  color: white;
   padding: 19px;
   display: inline-block;
-}
+  text-align: left;
+  line-height: 1.2;
+  font-size: 19px; 
+  }
 .lorem22{
-  width: 29.1vw;
-  background-color: hsl(0, 43%, 99%);
   color: #926239;
-  padding: 19px;
-  display: inline-block;
+  background-color: hsl(0, 43%, 99%);
 }
- 
-
-
-.lorem33{
-  width: 29.2vw;
-  color: white;
-  background-color: #926239;
-  padding: 19px;
-  display: inline-block;
-} 

@@ -37,10 +37,13 @@
 }
 .small-section {
   display: inline-block;
-  width: 33vw;
+  width: 33%;
   text-align: left;
 }
 .section-alt-color {
-  color: #926239;
   background-color: white;
+  color: #926239;
+}
+.text-left-footer{
+  text-align: left;
 }

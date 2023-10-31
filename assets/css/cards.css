@@ -1,7 +1,7 @@
-*{
+* {
   box-sizing: border-box;
 }
-.card{
+.card {
   width: 30.6%;
   height: 230px;
   display: inline-block;
@@ -12,41 +12,95 @@
   font-size: 17px;
   color: white;
   padding: 0px;
+  overflow: hidden;
 }
-.body{
+.body {
   font-size: 0;
   min-height: 150vh;
 }
-.title{
+.relative {
   position: relative;
-  top: 40px;left: 30px;
+}
+.title {
+  top: 40px;
+  left: 30px;
   width: 150px;
 }
-.sum{
-  position: relative;
-  top: 64px; left:30px;
+.sum {
+  top: 64px;
+  left: 30px;
   font-size: 29px;
-  font-weight:540;
+  font-weight: 540;
   width: 150px;
 }
-.incr-dicr{
-  position: relative;
-top: 120px; left: 30px;
-width: 180px;
+.incr-dicr {
+  top: 120px;
+  left: 30px;
+  width: 180px;
 }
-.img{
-  position:relative;
-  width: 25px; height: 25px;
+.img {
+  width: 25px;
+  height: 25px;
   right: -285px;
   top: -25px;
 }
-.sales{
-  background:linear-gradient(59deg, rgba(244,242,231,0.960463408996411) 0%, rgba(187,48,153,1) 50%);
+.sales {
+  background: linear-gradient(
+    59deg,
+    rgba(244, 242, 231, 0.960463408996411) 0%,
+    rgba(187, 48, 153, 1) 50%
+  );
 }
-.orders{
-  background: linear-gradient(59deg, rgba(244,242,231,0.960463408996411) 0%, rgba(48,187,60,0.8036006638983718) 50%);
-  margin:0 26px;
+.orders {
+  background: linear-gradient(
+    59deg,
+    rgba(244, 242, 231, 0.960463408996411) 0%,
+    rgba(48, 187, 60, 0.8036006638983718) 50%
+  );
+  margin: 0 26px;
 }
-.online{
-  background: linear-gradient(59deg, rgba(244,242,231,0.960463408996411) 0%, rgba(48,127,187,0.8036006638983718) 50%);
+.online {
+  background: linear-gradient(
+    59deg,
+    rgba(244, 242, 231, 0.960463408996411) 0%,
+    rgba(48, 127, 187, 0.8036006638983718) 50%
+  );
+}
+.title::before {
+  content: "";
+  display: inline-block;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  position: absolute;
+  top: 70px;
+  right: -230px;
+  opacity: 0.1;
+  background-color:white
+}
+.title::after {
+  content: "";
+  display: inline-block;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: -120px;
+  right: -330px;
+  opacity: 0.1;
+  background-color:white
+}
+.card:nth-child(3n+1){
+  background: linear-gradient(
+    59deg,
+    rgba(244, 242, 231, 0.960463408996411) 0%,
+    rgba(48, 127, 187, 0.8036006638983718) 50%
+  );
+}
+.card:first-child{
+  background: linear-gradient(
+    59deg,
+    rgba(244, 242, 231, 0.960463408996411) 0%,
+    rgba(187, 48, 153, 1) 50%
+  );
 }

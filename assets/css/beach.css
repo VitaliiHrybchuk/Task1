@@ -1,7 +1,6 @@
 * {
   box-sizing: border-box;
   margin: 0;
-  text-align: center;
 }
 .header {
   background-image: url(../imeges/beach.jpg);
@@ -14,6 +13,7 @@
   line-height: 1.2;
   color: #926239;
   background-color: white;
+  text-align: center;
 }
 .section{
   background-color: #926239;
@@ -30,6 +30,7 @@
   color: #926239;
   font-size: 17px;
   margin: 25px;
+  background-color: transparent;
 }
 .btn:hover {
   background-color: #926239;
@@ -44,6 +45,6 @@
   background-color: white;
   color: #926239;
 }
-.text-left-footer{
-  text-align: left;
+.title-footer{
+  text-align: center;
 }

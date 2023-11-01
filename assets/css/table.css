@@ -68,3 +68,7 @@ tr>th>span{
   font-size: 40px;
 line-height: 1.5;
 }
+.start:hover{
+  color: gold;
+  background-color: rgb(67, 60, 60);
+}

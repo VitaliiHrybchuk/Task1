@@ -3,12 +3,12 @@ table{
   margin: 20px;
   border-radius: 10px;
   overflow: hidden;
+  text-align: center;
 }
 td,
 th{
   padding: 13px;
-  border: 1px;
-  text-align: center;
+  vertical-align: middle;
 }
 tbody th{
   text-align: left;
@@ -18,47 +18,32 @@ tbody th{
   font-weight: 700;
   color: white;
 }
-.line1{
-vertical-align: middle;
+.th-col-1{
 background-color: rgb(138,180,248);
 }
-.line2{
+.th-col-2{
   background-color: rgb(113, 152, 214);
 }
-.line3{
+.th-col-3{
   background-color: rgb(78, 110, 161);;
 }
-.line4{
+.th-col-4{
   background-color: rgb(36, 72, 126);;
 }
-.line5{
+.th-col-5{
   background-color: rgb(16, 47, 95);;
 }
 
-.item:nth-child(2n){
-  background-color: rgb(243, 237, 237);
+.color:nth-child(2n+1){
+  background-color: rgb(135, 123, 123);
 }
-.item:nth-child(2n+1){
-  background-color: rgb(224,220, 220);
+.color:nth-child(even){
+  background-color: rgb(228, 207, 207);
 }
-.item3:nth-child(odd){
-  background-color: rgb(243, 237, 237);
+.grey:nth-child(odd){
+  background-color: rgb(228, 207, 207);
 }
-.item2:nth-child(odd){
-  background-color: rgb(243, 237, 237);
-}
-.item2:nth-child(even){
-  background-color: rgb(248, 246, 246);
-}
-.item3:nth-child(even){
-  background-color: rgb(248, 246, 246);
-}
-.item4:nth-child(even){
-  background-color: rgb(248, 246, 246);
-}
-.item4:nth-child(odd){
-  background-color: rgb(243, 237, 237);
-}
+
 button{
   background-color: rgb(224, 220, 220);
   padding: 10px 25px;

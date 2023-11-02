@@ -1,4 +1,4 @@
-table{
+table {
   border-collapse: collapse;
   margin: 20px;
   border-radius: 10px;
@@ -6,62 +6,62 @@ table{
   text-align: center;
 }
 td,
-th{
+th {
   padding: 13px;
   vertical-align: middle;
 }
-tbody th{
+tbody th {
   text-align: left;
 }
-.head{
+.head {
   font-size: 20px;
   font-weight: 700;
   color: white;
 }
-.th-col-1{
-background-color: rgb(138,180,248);
-padding: 35px;
+.th-col-1 {
+  background-color: rgb(138, 180, 248);
+  padding: 35px;
 }
-.th-col-2{
+.th-col-2 {
   background-color: rgb(113, 152, 214);
   padding: 30px;
 }
-.th-col-3{
+.th-col-3 {
   background-color: rgb(78, 110, 161);
-   padding: 30px;
+  padding: 30px;
 }
-.th-col-4{
+.th-col-4 {
   background-color: rgb(36, 72, 126);
-   padding: 30px;
+  padding: 30px;
 }
-.th-col-5{
+.th-col-5 {
   background-color: rgb(16, 47, 95);
-   padding: 30px;
+  padding: 30px;
 }
-.color:nth-child(2n+1){
+.color:nth-child(2n + 1) {
   background-color: rgb(211, 210, 210);
 }
-.color:nth-child(even){
+.color:nth-child(even) {
   background-color: rgb(228, 223, 223);
 }
-.grey:nth-child(odd){
+.grey:nth-child(odd) {
   background-color: rgb(228, 223, 223);
-  }
-.white:nth-child(even){
+}
+.white:nth-child(even) {
   background-color: rgb(247, 241, 241);
 }
-button{
+button {
   background-color: rgb(224, 220, 220);
   padding: 10px 25px;
   border: 1px solid rgb(167, 165, 165);
 }
-tr>th>span{
-display:block;
+tr > th > span {
+  display: block;
   font-size: 40px;
-line-height: 1.5;
-margin-top: 22px;
+  line-height: 1.5;
+  margin-top: 22px;
 }
-.start:hover{
+.start:hover {
   color: white;
   background-color: transparent;
   font-weight: 700;

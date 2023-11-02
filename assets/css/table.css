@@ -20,40 +20,49 @@ tbody th{
 }
 .th-col-1{
 background-color: rgb(138,180,248);
+padding: 35px;
 }
 .th-col-2{
   background-color: rgb(113, 152, 214);
+  padding: 30px;
 }
 .th-col-3{
-  background-color: rgb(78, 110, 161);;
+  background-color: rgb(78, 110, 161);
+   padding: 30px;
 }
 .th-col-4{
-  background-color: rgb(36, 72, 126);;
+  background-color: rgb(36, 72, 126);
+   padding: 30px;
 }
 .th-col-5{
-  background-color: rgb(16, 47, 95);;
+  background-color: rgb(16, 47, 95);
+   padding: 30px;
 }
-
 .color:nth-child(2n+1){
-  background-color: rgb(135, 123, 123);
+  background-color: rgb(211, 210, 210);
 }
 .color:nth-child(even){
-  background-color: rgb(228, 207, 207);
+  background-color: rgb(228, 223, 223);
 }
 .grey:nth-child(odd){
-  background-color: rgb(228, 207, 207);
+  background-color: rgb(228, 223, 223);
+  }
+.white:nth-child(even){
+  background-color: rgb(247, 241, 241);
 }
-
 button{
   background-color: rgb(224, 220, 220);
   padding: 10px 25px;
-  border: 1.5px solid rgb(167, 165, 165);
+  border: 1px solid rgb(167, 165, 165);
 }
 tr>th>span{
+display:block;
   font-size: 40px;
 line-height: 1.5;
+margin-top: 22px;
 }
 .start:hover{
-  color: gold;
-  background-color: rgb(67, 60, 60);
+  color: white;
+  background-color: transparent;
+  font-weight: 700;
 }

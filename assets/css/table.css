@@ -13,6 +13,9 @@ th {
 tbody th {
   text-align: left;
 }
+.title-line{
+  padding: 30px;
+}
 .head {
   font-size: 20px;
   font-weight: 700;
@@ -20,7 +23,6 @@ tbody th {
 }
 .th-col-1 {
   background-color: rgb(138, 180, 248);
-  padding: 35px;
 }
 .th-col-2 {
   background-color: rgb(113, 152, 214);
@@ -28,11 +30,9 @@ tbody th {
 }
 .th-col-3 {
   background-color: rgb(78, 110, 161);
-  padding: 30px;
 }
 .th-col-4 {
   background-color: rgb(36, 72, 126);
-  padding: 30px;
 }
 .th-col-5 {
   background-color: rgb(16, 47, 95);

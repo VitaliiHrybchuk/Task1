@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="../css/reset.css">
+  <link rel="stylesheet" href="../css/form-register.css">
+</head>
+<body>
+  <article>
+    <h1>Register</h1>
+    <p>Create your account. It's free and only takes a minute.</p>
+    <form class="form">
+      <input placeholder="First Name" name="First-Name" type="text" pattern="[A-Z][a-z]{0,32}" required>
+      <input placeholder="Last Name" name="Last-Name" type="text" pattern="[A-Z][a-z]{0,32}" required>
+      <input placeholder="Email" name="Email" type="email" pattern="[^@ \t\r\n]+@[^@ \t\r\n]+\.[^@ \t\r\n]+" required>
+      <input placeholder="Password" name="Password" type="password" pattern="^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[#?!@$ %^&*-]).{8,}$" required>
+      <input placeholder="Confirm Password" name="Confirm-Password" type="password" pattern="^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[#?!@$ %^&*-]).{8,}$" required>
+      <label>
+        I accept the <a href="#">Terms of Use</a> & <a href="#">Privacy Policy.</a>
+        <input type="checkbox" required name="Is-Accept">
+      </label>
+      <button type="submit">Register Now</button>
+    </form>
+  </article>
+</body>
+</html>

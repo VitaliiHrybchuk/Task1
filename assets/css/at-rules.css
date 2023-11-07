@@ -1,0 +1,12 @@
+@import url(../css/reset.css);
+@import url(../css/fonts.css);
+
+.main-heading {
+  text-align: center;
+  font-size: 53px;
+  font-weight: 500px;
+  margin-top: 200px;
+  
+  font-family: kenia, Verdana, Geneva, Tahoma, sans-serif;
+}
+

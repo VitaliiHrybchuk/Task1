@@ -1,6 +1,75 @@
-.form{
+* {
+  box-sizing: border-box;
+  margin: 0;
+  color: rgb(137, 126, 126);
+}
+.article {
   display: flex;
   flex-direction: column;
+  margin: 20px;
+  background-color: rgba(235, 235, 235, 0.961);
+}
+.title {
+  font-weight: 545;
+  font-size: 30px;
+  position: relative;
+  left: 170px;
+  right: 40px;
+  color: rgb(91, 86, 86);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 50px;
+}
+.header-text {
+  position: relative;
+  left: -365px;
+  text-align: center;
+  line-height: 3;
+  font-size: 18.5px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  left: 10px;
   padding: 10px;
-  max-width: 500px;
+  width: 37%;
+}
+.input {
+  padding: 10px;
+  margin: 10px;
+}
+.first-last-name {
+  width: 188px;
+}
+.title::after,
+.title::before {
+  content: "_______";
+  color: rgb(137, 126, 126);
+  position: absolute;
+}
+
+.title::before {
+  left: -139px;
+  top: -12px;
+}
+.title::after {
+  top: -11px;
+  left: 129px;
+}
+.href-color {
+  color: rgb(115, 148, 115);
+}
+.button {
+  background-color: rgb(100, 180, 100);
+  border-radius: 2.5%;
+  border: none;
+  color: white;
+  font-weight: 700;
+  font-size: 16px;
+}
+.label {
+  font-size: 18.5px;
+}
+.checkbox {
+  background-color: rgb(12, 12, 97);
 }

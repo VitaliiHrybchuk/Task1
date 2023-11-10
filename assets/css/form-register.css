@@ -1,23 +1,26 @@
 * {
   box-sizing: border-box;
-  margin: 0;
-  color: rgb(137, 126, 126);
 }
 .article {
   display: flex;
   flex-direction: column;
   margin: 20px;
+  padding: 20px;
+  width: 100%;
+  max-width: 450px;
+  min-width: 300px;
+  border: 1px solid rgb(158, 153, 153);
+  color: rgb(137, 126, 126);
   background-color: rgba(235, 235, 235, 0.961);
+  font-size: 18.5px;
 }
 .title {
-  font-weight: 545;
+  display: flex;
+  font-weight: 500;
   font-size: 30px;
-  position: relative;
-  left: 170px;
-  right: 40px;
-  color: rgb(91, 86, 86);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  margin-top: 50px;
+  gap:10px;
+  align-items: center;
 }
 .header-text {
   position: relative;
@@ -43,7 +46,9 @@
 }
 .title::after,
 .title::before {
-  content: "_______";
+  content: "";
+  flex: 1;
+  border-bottom: 1.7px solid black;
   color: rgb(137, 126, 126);
   position: absolute;
 }
@@ -56,7 +61,7 @@
   top: -11px;
   left: 129px;
 }
-.href-color {
+.accept-color {
   color: rgb(115, 148, 115);
 }
 .button {

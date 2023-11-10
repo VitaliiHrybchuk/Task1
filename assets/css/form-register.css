@@ -2,79 +2,76 @@
   box-sizing: border-box;
 }
 .article {
-  display: flex;
-  flex-direction: column;
-  margin: 20px;
-  padding: 20px;
+  margin: 20px auto;
+  padding: 20px 20px 20px 30px;
   width: 100%;
   max-width: 450px;
   min-width: 300px;
   border: 1px solid rgb(158, 153, 153);
   color: rgb(137, 126, 126);
   background-color: rgba(235, 235, 235, 0.961);
-  font-size: 18.5px;
+  font-size: 18px;
 }
 .title {
-  display: flex;
   font-weight: 500;
   font-size: 30px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  gap:10px;
-  align-items: center;
-}
-.header-text {
-  position: relative;
-  left: -365px;
   text-align: center;
-  line-height: 3;
-  font-size: 18.5px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 15px 0 15px 0;
+  color: rgb(83, 78, 78);
+  position: relative;
+  }
+.header-text {
+  text-align: center;
+  line-height: 1.5;
+  margin-bottom: 18px;
 }
 .form {
   display: flex;
   flex-direction: column;
   position: relative;
-  left: 10px;
-  padding: 10px;
-  width: 37%;
 }
 .input {
   padding: 10px;
-  margin: 10px;
-}
-.first-last-name {
-  width: 188px;
+  margin-bottom: 20px;
+  border-radius: 3px;
+  border: 1px solid rgb(186, 183, 183);
 }
 .title::after,
 .title::before {
   content: "";
-  flex: 1;
-  border-bottom: 1.7px solid black;
-  color: rgb(137, 126, 126);
+  width: 30%;
+  border-bottom: 1.7px solid rgb(14, 13, 13);
   position: absolute;
-}
-
+  top: 15px;
+  }
 .title::before {
-  left: -139px;
-  top: -12px;
+  left: 0;
 }
 .title::after {
-  top: -11px;
-  left: 129px;
-}
-.accept-color {
+  right: 0;
+  }
+.accept {
   color: rgb(115, 148, 115);
+  text-decoration: none;
+}
+.one-line {
+  display: flex;
+  gap: 30px;
 }
 .button {
   background-color: rgb(100, 180, 100);
-  border-radius: 2.5%;
+  border-radius: 10px;
   border: none;
+  margin: 8px 0 25px 0;
   color: white;
   font-weight: 700;
   font-size: 16px;
+  padding: 10px;
 }
 .label {
-  font-size: 18.5px;
-}
-.checkbox {
-  background-color: rgb(12, 12, 97);
+  display: flex;
+  align-items: flex-start;
+  margin-left: -2px;
+  gap: 5px;
 }

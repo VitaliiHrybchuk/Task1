@@ -9,14 +9,14 @@
   </head>
   <body>
     <article class="article">
-      <h1 class="title">Register</h1>
+      <h1 class="title"><span>Register</span></h1>
       <p class="header-text">
         Create your account. It's free and only takes a minute.
       </p>
       <form class="form">
         <div class="one-line">
           <input
-            class="input first-last-name"
+            class="input"
             placeholder="First Name"
             name="First-Name"
             type="text"
@@ -24,7 +24,7 @@
             required
           />
           <input
-            class="input first-last-name"
+            class="input"
             placeholder="Last Name"
             name="Last-Name"
             type="text"
@@ -57,11 +57,13 @@
           required
         />
         <label class="label">
-          <input class="input checkbox" type="checkbox" required name="Is-Accept" />
-          I accept the <a href="#" class="accept-color">Terms of Use</a> &
-          <a href="#" class="accept-color">Privacy Policy.</a>
+          <input class="input" type="checkbox" required name="Is-Accept" />
+            <span>
+              I accept the <a href="#" class="accept">Terms of Use</a> &
+              <a href="#" class="accept">Privacy Policy.</a>
+            </span> 
         </label>
-        <button class="input button" type="submit">Register Now</button>
+        <button class="button" type="submit">Register Now</button>
       </form>
     </article>
   </body>

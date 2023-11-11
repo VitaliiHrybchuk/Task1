@@ -42,9 +42,9 @@
   text-decoration: none;
 }
 .one-line {
-  display: flex;
-  width: 45%;
-  gap: 30px;
+  display: grid;
+  grid-template-columns: 46% 46%;
+    gap: 8%;
 }
 .button {
   background-color: rgb(100, 180, 100);

@@ -12,3 +12,10 @@
   line-height: 1.5;
   margin-bottom: 18px;
 }
+@media print{
+
+  .title{
+color: brown;
+font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+}

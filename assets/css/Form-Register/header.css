@@ -21,3 +21,8 @@ color: brown;
 font-family: Georgia, 'Times New Roman', Times, serif;
   }
 }
+@media (max-width:500px) {
+  .header{
+    background-color: aquamarine;
+  }
+}

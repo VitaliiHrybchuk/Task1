@@ -1,5 +1,3 @@
-@import url(../Form-Register/print.css);
-
 * {
   box-sizing: border-box;
 }
@@ -45,6 +43,7 @@
 }
 .one-line {
   display: flex;
+  width: 45%;
   gap: 30px;
 }
 .button {

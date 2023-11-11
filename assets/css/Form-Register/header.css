@@ -22,7 +22,11 @@ font-family: Georgia, 'Times New Roman', Times, serif;
   }
 }
 @media (max-width:500px) {
-  .header{
-    background-color: aquamarine;
+  .title{
+    color: green;
   }
+  .title::after,
+.title::before{
+  border-bottom: 1.7px solid green;
+}
 }

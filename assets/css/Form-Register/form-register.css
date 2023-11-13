@@ -62,3 +62,24 @@
   margin-left: -2px;
   gap: 5px;
 }
+@media (max-width:440px){
+  .title::after,
+  .title::before {
+    content: "";
+    width: 27%;
+  }
+}
+@media (max-width:350px){
+  .title::after,
+  .title::before {
+    content: "";
+    width: 26%;
+  }
+}
+@media (max-width:330px){
+  .title::after,
+  .title::before {
+    content: "";
+    width: 22%;
+  }
+}
